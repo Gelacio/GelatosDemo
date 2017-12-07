@@ -1,0 +1,6 @@
+framework module GelatosDemo {
+  umbrella header "GelatosDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

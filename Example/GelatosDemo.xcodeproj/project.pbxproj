@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		1D5D7FC78A9434D322682508 /* Pods-GelatosDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GelatosDemo_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GelatosDemo_Tests/Pods-GelatosDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3503D286B910867BB1ECEF6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3503D286B910867BB1ECEF6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GelatosDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GelatosDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,9 +42,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		79D8FFE84E90EBD4FEABBFDF /* Pods-GelatosDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GelatosDemo_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GelatosDemo_Tests/Pods-GelatosDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7AA719274B55D4F58E3C3557 /* Pods-GelatosDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GelatosDemo_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GelatosDemo_Example/Pods-GelatosDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A2C19BAA774D6E494407B836 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A2C19BAA774D6E494407B836 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AE032862DD2A4ABA177D0D39 /* Pods_GelatosDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GelatosDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCBAA05F4336AF82803EF995 /* GelatosDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GelatosDemo.podspec; path = ../GelatosDemo.podspec; sourceTree = "<group>"; };
+		DCBAA05F4336AF82803EF995 /* GelatosDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GelatosDemo.podspec; path = ../GelatosDemo.podspec; sourceTree = "<group>"; };
 		EB0FAA8CAE19051EF492804D /* Pods-GelatosDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GelatosDemo_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GelatosDemo_Example/Pods-GelatosDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FCBF033D8229185B03993D80 /* Pods_GelatosDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GelatosDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -215,6 +215,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = K79TKW9544;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -463,6 +464,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -508,6 +510,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -517,13 +520,14 @@
 			baseConfigurationReference = EB0FAA8CAE19051EF492804D /* Pods-GelatosDemo_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K79TKW9544;
 				INFOPLIST_FILE = GelatosDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -532,13 +536,14 @@
 			baseConfigurationReference = 7AA719274B55D4F58E3C3557 /* Pods-GelatosDemo_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K79TKW9544;
 				INFOPLIST_FILE = GelatosDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

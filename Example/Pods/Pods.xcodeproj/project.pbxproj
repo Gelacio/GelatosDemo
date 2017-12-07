@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03845F691FD9CFBD0032AF8E /* DemoClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03845F681FD9CFBD0032AF8E /* DemoClass.swift */; };
+		0BE0FE6F8C8A8A75E5FBAE33B22EB8F7 /* GelatosDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C9A6F581071F93D9B84D0EF2364224 /* GelatosDemo-dummy.m */; };
+		178802C6AA8B7F0863CEA382A833B3FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2FC67ACA970CA13942B27DFBE884959D /* GelatosDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E97815BA033EFC15A762D689931ACEB8 /* GelatosDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64C7E0B26C6C81F123BDECE844233AF0 /* Pods-GelatosDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D86959CEB438EC67B68397CF99248B /* Pods-GelatosDemo_Example-dummy.m */; };
+		72A7316E0408C939E94FA89A7DA0DF4F /* Pods-GelatosDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F9DE432FAD43C3A9D3A6C89D657688A /* Pods-GelatosDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B30E38B9B6F9FFA4736AD63E1897AB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9BE3FB4307E88B7823D175D0E3E78700 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AB42B9CA052F3DEF6B6DCFA41EBEC867 /* Pods-GelatosDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6A403934BC977C573BC2B8FFDC3720 /* Pods-GelatosDemo_Tests-dummy.m */; };
+		DAB4A49ACEF32CDBC35783EC0FB8C0B6 /* Pods-GelatosDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA9047C6F8E5C4A3FF2889089CFA1B73 /* Pods-GelatosDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF0263C8A35DCA7B80869DDD327CC12D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500302860BB901041BBD471D6CA6D60D /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4C611CA8B101158B32471FDFC2C35F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE50AFE87F1CE4F5A4127755477B628C;
+			remoteInfo = GelatosDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03845F681FD9CFBD0032AF8E /* DemoClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoClass.swift; sourceTree = "<group>"; };
+		1A6A403934BC977C573BC2B8FFDC3720 /* Pods-GelatosDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GelatosDemo_Tests-dummy.m"; sourceTree = "<group>"; };
+		1EA581B757880ACBDFE4CBDB22F0334D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FE5AC2901FE1D470811DF1DD66C3E4B /* Pods-GelatosDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GelatosDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		21ED8EB8C7E98FFB6946C4AB67464C96 /* Pods-GelatosDemo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GelatosDemo_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		31E3201B1838B6FCE59EB4DAD446A1C7 /* Pods-GelatosDemo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GelatosDemo_Tests-resources.sh"; sourceTree = "<group>"; };
+		3DAFB6BDD2765B5F0F315381B53151DE /* Pods-GelatosDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GelatosDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3E9D785DA358B18517CD6CBF37F72990 /* Pods-GelatosDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GelatosDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		47D3130B5DDF4378FBC09D43793DDA0E /* Pods-GelatosDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GelatosDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		500302860BB901041BBD471D6CA6D60D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GelatosDemo/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		5AB1598C95D1468CA02750D2F1CF3AEC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DC899ADE9394B91E8AB340E8A40C0E2 /* Pods-GelatosDemo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GelatosDemo_Example-resources.sh"; sourceTree = "<group>"; };
+		61F779231FE63FE6F362273B686CE21F /* GelatosDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GelatosDemo-prefix.pch"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66B78418195926D06BA6CD7CE2B09D72 /* Pods-GelatosDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GelatosDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		67C9A6F581071F93D9B84D0EF2364224 /* GelatosDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GelatosDemo-dummy.m"; sourceTree = "<group>"; };
+		69E483CBE34205F5381ADF5D168579B6 /* Pods-GelatosDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GelatosDemo_Tests.modulemap"; sourceTree = "<group>"; };
+		6C6A7264359CC2BD961F05734D9C14DB /* Pods-GelatosDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GelatosDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6CD673AA4618364B83B47873D99FD14C /* GelatosDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GelatosDemo.xcconfig; sourceTree = "<group>"; };
+		75850738425E2D00FAE77AA008FE773A /* Pods_GelatosDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GelatosDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77654F6E4719893E566692011F0D0177 /* Pods_GelatosDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GelatosDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D86959CEB438EC67B68397CF99248B /* Pods-GelatosDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GelatosDemo_Example-dummy.m"; sourceTree = "<group>"; };
+		7F9DE432FAD43C3A9D3A6C89D657688A /* Pods-GelatosDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GelatosDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD356F374B3C833E6A383FB54CD60C92 /* Pods-GelatosDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GelatosDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BF36E795BBB87636B78F4BD68D71DD88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0D9814A7FBF9D6EB83529BC558B3A6F /* GelatosDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GelatosDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16816DCE48784A30E336BE130E91562 /* Pods-GelatosDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GelatosDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E97815BA033EFC15A762D689931ACEB8 /* GelatosDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GelatosDemo-umbrella.h"; sourceTree = "<group>"; };
+		EB351E38C3C847A71C21DC7410E4CDB4 /* GelatosDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GelatosDemo.modulemap; sourceTree = "<group>"; };
+		F31A8096D9EAD1040DEC00952946B39E /* Pods-GelatosDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GelatosDemo_Example.modulemap"; sourceTree = "<group>"; };
+		F552C9646BC6FA7EA6D0DF29B3D52DEB /* Pods-GelatosDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GelatosDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA9047C6F8E5C4A3FF2889089CFA1B73 /* Pods-GelatosDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GelatosDemo_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40E15AF487CD49325586CA73CB9F2E6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE3FB4307E88B7823D175D0E3E78700 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CA15008D1205364C2646B254D2B561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178802C6AA8B7F0863CEA382A833B3FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E71CEAEB53BFE3C41DE78B7CE3001A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B30E38B9B6F9FFA4736AD63E1897AB3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AFF35B9F33F7352BE2B05B6FCFB3ECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0D9814A7FBF9D6EB83529BC558B3A6F /* GelatosDemo.framework */,
+				77654F6E4719893E566692011F0D0177 /* Pods_GelatosDemo_Example.framework */,
+				75850738425E2D00FAE77AA008FE773A /* Pods_GelatosDemo_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E73BFD1598A4918B54288F7B8A2B3B7 /* GelatosDemo */ = {
+			isa = PBXGroup;
+			children = (
+				500302860BB901041BBD471D6CA6D60D /* ReplaceMe.swift */,
+				85EF4BD30B5346120D49183D430D4508 /* Support Files */,
+				03845F681FD9CFBD0032AF8E /* DemoClass.swift */,
+			);
+			name = GelatosDemo;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6EAA9EE437AB8749389FB033B040BE9E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E73BFD1598A4918B54288F7B8A2B3B7 /* GelatosDemo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6EAA9EE437AB8749389FB033B040BE9E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6AFF35B9F33F7352BE2B05B6FCFB3ECF /* Products */,
+				DC3FC0E5CB16456B23B49D521B1585AB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85EF4BD30B5346120D49183D430D4508 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB351E38C3C847A71C21DC7410E4CDB4 /* GelatosDemo.modulemap */,
+				6CD673AA4618364B83B47873D99FD14C /* GelatosDemo.xcconfig */,
+				67C9A6F581071F93D9B84D0EF2364224 /* GelatosDemo-dummy.m */,
+				61F779231FE63FE6F362273B686CE21F /* GelatosDemo-prefix.pch */,
+				E97815BA033EFC15A762D689931ACEB8 /* GelatosDemo-umbrella.h */,
+				1EA581B757880ACBDFE4CBDB22F0334D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GelatosDemo";
+			sourceTree = "<group>";
+		};
+		9368123527DE7D67E6186665F21FBC91 /* Pods-GelatosDemo_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BF36E795BBB87636B78F4BD68D71DD88 /* Info.plist */,
+				F31A8096D9EAD1040DEC00952946B39E /* Pods-GelatosDemo_Example.modulemap */,
+				E16816DCE48784A30E336BE130E91562 /* Pods-GelatosDemo_Example-acknowledgements.markdown */,
+				3E9D785DA358B18517CD6CBF37F72990 /* Pods-GelatosDemo_Example-acknowledgements.plist */,
+				78D86959CEB438EC67B68397CF99248B /* Pods-GelatosDemo_Example-dummy.m */,
+				47D3130B5DDF4378FBC09D43793DDA0E /* Pods-GelatosDemo_Example-frameworks.sh */,
+				5DC899ADE9394B91E8AB340E8A40C0E2 /* Pods-GelatosDemo_Example-resources.sh */,
+				FA9047C6F8E5C4A3FF2889089CFA1B73 /* Pods-GelatosDemo_Example-umbrella.h */,
+				3DAFB6BDD2765B5F0F315381B53151DE /* Pods-GelatosDemo_Example.debug.xcconfig */,
+				1FE5AC2901FE1D470811DF1DD66C3E4B /* Pods-GelatosDemo_Example.release.xcconfig */,
+			);
+			name = "Pods-GelatosDemo_Example";
+			path = "Target Support Files/Pods-GelatosDemo_Example";
+			sourceTree = "<group>";
+		};
+		95541486E927FA82F6CEF4F3782B0281 /* Pods-GelatosDemo_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5AB1598C95D1468CA02750D2F1CF3AEC /* Info.plist */,
+				69E483CBE34205F5381ADF5D168579B6 /* Pods-GelatosDemo_Tests.modulemap */,
+				6C6A7264359CC2BD961F05734D9C14DB /* Pods-GelatosDemo_Tests-acknowledgements.markdown */,
+				F552C9646BC6FA7EA6D0DF29B3D52DEB /* Pods-GelatosDemo_Tests-acknowledgements.plist */,
+				1A6A403934BC977C573BC2B8FFDC3720 /* Pods-GelatosDemo_Tests-dummy.m */,
+				21ED8EB8C7E98FFB6946C4AB67464C96 /* Pods-GelatosDemo_Tests-frameworks.sh */,
+				31E3201B1838B6FCE59EB4DAD446A1C7 /* Pods-GelatosDemo_Tests-resources.sh */,
+				7F9DE432FAD43C3A9D3A6C89D657688A /* Pods-GelatosDemo_Tests-umbrella.h */,
+				66B78418195926D06BA6CD7CE2B09D72 /* Pods-GelatosDemo_Tests.debug.xcconfig */,
+				AD356F374B3C833E6A383FB54CD60C92 /* Pods-GelatosDemo_Tests.release.xcconfig */,
+			);
+			name = "Pods-GelatosDemo_Tests";
+			path = "Target Support Files/Pods-GelatosDemo_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DC3FC0E5CB16456B23B49D521B1585AB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9368123527DE7D67E6186665F21FBC91 /* Pods-GelatosDemo_Example */,
+				95541486E927FA82F6CEF4F3782B0281 /* Pods-GelatosDemo_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D19A1BE7C5D43AE51FB641966E999DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A7316E0408C939E94FA89A7DA0DF4F /* Pods-GelatosDemo_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA28DC6B1CC65AF735B661DE6754715 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC67ACA970CA13942B27DFBE884959D /* GelatosDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD9CC551CE4B877F93C802BBDA35F1E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB4A49ACEF32CDBC35783EC0FB8C0B6 /* Pods-GelatosDemo_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13B103FD66F840D09B750347B2D5B916 /* Pods-GelatosDemo_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AACFAF512596C15A11DBE07D616B50E /* Build configuration list for PBXNativeTarget "Pods-GelatosDemo_Tests" */;
+			buildPhases = (
+				055DB80732EFCB0321BD0EA6089CCFEE /* Sources */,
+				93E71CEAEB53BFE3C41DE78B7CE3001A /* Frameworks */,
+				3D19A1BE7C5D43AE51FB641966E999DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GelatosDemo_Tests";
+			productName = "Pods-GelatosDemo_Tests";
+			productReference = 75850738425E2D00FAE77AA008FE773A /* Pods_GelatosDemo_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE50AFE87F1CE4F5A4127755477B628C /* GelatosDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287A020588F365A863377EFDC540AFAD /* Build configuration list for PBXNativeTarget "GelatosDemo" */;
+			buildPhases = (
+				2CA8998A15CA46A2237AFEB0891DC8AE /* Sources */,
+				40E15AF487CD49325586CA73CB9F2E6E /* Frameworks */,
+				7EA28DC6B1CC65AF735B661DE6754715 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GelatosDemo;
+			productName = GelatosDemo;
+			productReference = D0D9814A7FBF9D6EB83529BC558B3A6F /* GelatosDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7D81E8168A44D27381D5BD6E52DDE4D /* Pods-GelatosDemo_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA00519CDB103DB60DD93386821AF17 /* Build configuration list for PBXNativeTarget "Pods-GelatosDemo_Example" */;
+			buildPhases = (
+				9B54BF8E65DD00B6205DD9CA0D780E16 /* Sources */,
+				70CA15008D1205364C2646B254D2B561 /* Frameworks */,
+				ACD9CC551CE4B877F93C802BBDA35F1E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8136E79C514DB05C791FEB985D7136E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-GelatosDemo_Example";
+			productName = "Pods-GelatosDemo_Example";
+			productReference = 77654F6E4719893E566692011F0D0177 /* Pods_GelatosDemo_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6AFF35B9F33F7352BE2B05B6FCFB3ECF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE50AFE87F1CE4F5A4127755477B628C /* GelatosDemo */,
+				B7D81E8168A44D27381D5BD6E52DDE4D /* Pods-GelatosDemo_Example */,
+				13B103FD66F840D09B750347B2D5B916 /* Pods-GelatosDemo_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		055DB80732EFCB0321BD0EA6089CCFEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB42B9CA052F3DEF6B6DCFA41EBEC867 /* Pods-GelatosDemo_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA8998A15CA46A2237AFEB0891DC8AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03845F691FD9CFBD0032AF8E /* DemoClass.swift in Sources */,
+				0BE0FE6F8C8A8A75E5FBAE33B22EB8F7 /* GelatosDemo-dummy.m in Sources */,
+				FF0263C8A35DCA7B80869DDD327CC12D /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B54BF8E65DD00B6205DD9CA0D780E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C7E0B26C6C81F123BDECE844233AF0 /* Pods-GelatosDemo_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8136E79C514DB05C791FEB985D7136E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GelatosDemo;
+			target = AE50AFE87F1CE4F5A4127755477B628C /* GelatosDemo */;
+			targetProxy = E4C611CA8B101158B32471FDFC2C35F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A55EE63A903D2A9272CD7C3FF5D5133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DAFB6BDD2765B5F0F315381B53151DE /* Pods-GelatosDemo_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GelatosDemo_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GelatosDemo_Example/Pods-GelatosDemo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GelatosDemo_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		230EBE96AB9635F07143300F2C1E39E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CD673AA4618364B83B47873D99FD14C /* GelatosDemo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GelatosDemo/GelatosDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GelatosDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GelatosDemo/GelatosDemo.modulemap";
+				PRODUCT_NAME = GelatosDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4D21D69D8132536C032D59A227C9E174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD356F374B3C833E6A383FB54CD60C92 /* Pods-GelatosDemo_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GelatosDemo_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GelatosDemo_Tests/Pods-GelatosDemo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GelatosDemo_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8CDA1409AC281839910D8E73ACF531EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66B78418195926D06BA6CD7CE2B09D72 /* Pods-GelatosDemo_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GelatosDemo_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GelatosDemo_Tests/Pods-GelatosDemo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GelatosDemo_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3A0B8F593CDCBD7814EB23F2AC9D406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FE5AC2901FE1D470811DF1DD66C3E4B /* Pods-GelatosDemo_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GelatosDemo_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GelatosDemo_Example/Pods-GelatosDemo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GelatosDemo_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2281634A8527377C5BB5043AD1E0721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CD673AA4618364B83B47873D99FD14C /* GelatosDemo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GelatosDemo/GelatosDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GelatosDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GelatosDemo/GelatosDemo.modulemap";
+				PRODUCT_NAME = GelatosDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		287A020588F365A863377EFDC540AFAD /* Build configuration list for PBXNativeTarget "GelatosDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2281634A8527377C5BB5043AD1E0721 /* Debug */,
+				230EBE96AB9635F07143300F2C1E39E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA00519CDB103DB60DD93386821AF17 /* Build configuration list for PBXNativeTarget "Pods-GelatosDemo_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A55EE63A903D2A9272CD7C3FF5D5133 /* Debug */,
+				B3A0B8F593CDCBD7814EB23F2AC9D406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AACFAF512596C15A11DBE07D616B50E /* Build configuration list for PBXNativeTarget "Pods-GelatosDemo_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CDA1409AC281839910D8E73ACF531EA /* Debug */,
+				4D21D69D8132536C032D59A227C9E174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
