@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GelatosDemo_Example' do
+  pod 'GelatosDemo', :path => '../'
+
+  target 'GelatosDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
